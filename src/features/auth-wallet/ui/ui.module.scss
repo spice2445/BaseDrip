@@ -1,0 +1,20 @@
+
+.button{
+    width: auto;
+
+    @media (max-width:480px) {
+        height: 2.5em;
+    }
+}
+
+.text_pc {
+    @media (max-width:900px) {
+        display: none;
+    }
+}
+
+.text_mobile {
+    @media (min-width:900px) {
+        display: none;
+    }
+}

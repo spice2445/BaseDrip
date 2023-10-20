@@ -1,0 +1,1 @@
+export { useGetfaucet } from './getFaucet';

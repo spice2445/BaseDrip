@@ -1,0 +1,15 @@
+
+.container_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.content_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

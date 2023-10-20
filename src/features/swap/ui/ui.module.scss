@@ -1,0 +1,18 @@
+.container_margin {
+  margin: 1rem 0;
+}
+
+.container_exchange {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_exchange {
+  width: 70%;
+}
+
+.title_small {
+  font-size: calc(10px + 16 * 0.078125vw);
+}

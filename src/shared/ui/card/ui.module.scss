@@ -1,0 +1,15 @@
+.card {
+    width: 100%;
+    --tw-drop-shadow: drop-shadow(0 20px 13px rgba(0,0,0,.03)) drop-shadow(0 8px 5px rgba(0,0,0,.08));
+    color:var(--white-color);
+    padding: 1rem;
+    background-color: var(--black-color);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent {
+    background-color: rgb(0 0 0/0.5);
+}

@@ -1,0 +1,17 @@
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    width: 100%;
+}
+
+.info_title {
+    opacity: 0.5;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.info_text {
+    font-weight: 500;
+}

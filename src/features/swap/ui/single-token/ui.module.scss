@@ -1,0 +1,36 @@
+
+.container {
+    &:not(:first-child) {
+        margin-top: 1rem;
+    }
+}
+
+.header_token {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contorl_container {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.contorl_balance {
+    cursor: pointer;
+    color:var(--pinky-color)
+}
+
+.body_input {
+    position: relative;
+}
+
+
+
+.input_text_token {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}

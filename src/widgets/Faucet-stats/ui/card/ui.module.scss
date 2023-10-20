@@ -1,0 +1,23 @@
+
+.card {
+    width: 30%;
+    flex-direction: column;
+    padding: 1rem;
+
+    @media(max-width: 600px) {
+        width: 100%;
+        padding: 0.8rem;
+    }
+}
+
+.text_xs {
+    opacity: .5;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.text_xl {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}

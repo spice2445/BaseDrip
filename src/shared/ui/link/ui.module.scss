@@ -1,0 +1,30 @@
+.link {
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
+  opacity: 0.5;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  font-size: 1em;
+  color: var(--white-color);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  &:hover {
+    background-color: var(--second-light-bg);
+    box-shadow: 0 0 8px 0.1px var(--second-light-bg);
+  }
+}
+
+.linkActive {
+  box-shadow: 0 0 8px 0.1px var(--second-light-bg);
+  content: '';
+  height: 100%;
+  opacity: 1;
+  width: 100%;
+  background-color: var(--second-light-bg);
+}

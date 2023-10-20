@@ -1,0 +1,28 @@
+.swap_places {
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: var(--pinky-color);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & svg {
+    width: 65%;
+  }
+
+  &:active {
+    & svg {
+      transform: rotate(360deg);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}

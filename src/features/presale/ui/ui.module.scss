@@ -1,0 +1,118 @@
+.container_presale {
+  width: 85%;
+  @media (max-width: 850px) {
+    width: 100%;
+  }
+}
+
+.body_content {
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 450px) {
+    padding: 0.7rem;
+  }
+}
+
+.BodySwap {
+  width: 100%;
+  margin-top: 2rem;
+
+  & form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 570px) {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.SwapItem {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0.8rem;
+  background-color: var(--second-bg);
+  border-radius: 5px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.HeaderSwapItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--second-light-bg);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.swapText {
+  font-size: 1.1rem;
+  color: var(--white-color);
+}
+
+.InputBody {
+  width: 100%;
+  height: 55px;
+  position: relative;
+
+  & > div,
+  & > div > div {
+    height: 100%;
+  }
+}
+
+.InputCount {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: 2px solid var(--white-color);
+  border-radius: 10px;
+  padding-left: 18px;
+  padding-right: 120px;
+}
+
+.BodyToken {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.Purchase {
+  margin-top: 2rem;
+  width: 80%;
+  max-width: 250px;
+  height: 3.5rem;
+}
+
+.max_button {
+  width: auto !important;
+  height: auto;
+
+  // width: 110px !important;
+  // height: 30px !important;
+  justify-content: center;
+  padding: 0.1rem 0.5rem;
+  margin-left: 10px;
+}

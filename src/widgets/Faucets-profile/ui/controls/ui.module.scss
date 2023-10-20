@@ -1,0 +1,27 @@
+
+.container_controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+.part_controls {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 600px) {
+        width: 100%;
+        & button {
+            width: auto;
+        }
+    }
+}

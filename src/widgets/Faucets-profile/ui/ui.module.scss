@@ -1,0 +1,30 @@
+.container_faucets {
+  width: 100%;
+  margin-top: -1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 1rem;
+
+  @media (min-width: 1440px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  @media (min-width: 1536px) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  @media (max-width: 1220px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (max-width: 450px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    & > div {
+      margin: 0 auto;
+    }
+  }
+}

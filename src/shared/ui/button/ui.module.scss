@@ -1,0 +1,50 @@
+.primary {
+  position: relative;
+  height: 3rem;
+  color: var(--white-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: transparent;
+  border: 2px solid var(--pinky-color);
+  background-color: var(--pinky-color);
+  border-radius: 0.5rem;
+
+  &:hover {
+    background-color: var(--pinky-hover-color);
+  }
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}
+
+.secondary {
+  background-color: transparent !important;
+}
+
+.loader_btn {
+  opacity: 0.5;
+  background-color: var(--pinky-hover-color);
+  cursor: progress;
+}
+
+.loader_content_container {
+  opacity: 0;
+}
+
+.skeleton_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+}

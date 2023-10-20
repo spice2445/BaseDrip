@@ -1,0 +1,15 @@
+
+.input {
+    border-bottom: 2px solid var(--pinky-color);;
+    outline-offset: 2px;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    background-color: transparent;
+    flex: 1 1;
+    width: 100%;
+    height: 100%;
+}
+
+.error {
+    border-bottom: 2px solid var(--error-color);
+}

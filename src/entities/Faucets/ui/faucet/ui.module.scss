@@ -1,0 +1,65 @@
+.card_body {
+  max-width: 320px;
+}
+
+.container_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.open_faucet_img {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.title_id {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.list_info {
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.block_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+
+.body_actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem;
+
+  & button {
+    height: 2.5rem;
+  }
+}
+
+.swap_locked_amount {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.swap_locked_amount_action {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  color: var(--white-color);
+  border: 1px solid var(--pinky-color);
+  background-color: var(--black-color);
+  margin-right: 20px;
+}
+
+.token_input {
+  padding: 0.5rem;
+}

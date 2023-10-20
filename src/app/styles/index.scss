@@ -1,0 +1,46 @@
+@import './reset.scss';
+@import './variables/global.scss';
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./fonts/Montserrat.ttf');
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--font-color-base);
+  color-scheme: var(--color-scheme);
+  font: var(--font-size-base) / var(--line-height-base) var(--font-family-base);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+}
+
+.app {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+#root > div[data-rk] {
+  height: 100vh;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.h_100 {
+  height: 100%;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}

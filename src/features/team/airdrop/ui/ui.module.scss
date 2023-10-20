@@ -1,0 +1,31 @@
+.container_button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.button {
+  width: 70%;
+}
+
+.container_input {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 25px;
+}
+
+.container_select {
+  position: relative;
+}
+
+// .container_participants {
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     margin: 1rem 0;
+// }
